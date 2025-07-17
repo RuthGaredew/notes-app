@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-5">
+        <h1 class="text-3xl font-bold text-center mb-6">Notes App</h1>
+
+<button id="toggle-dark-mode" class="bg-gray-800 text-white px-4 py-2 mb-2 rounded">
+    Dark Mode
+</button>
+  <form id="search-form" class="mb-6">
+    <input type="text" id="search-input" placeholder="Search Notes..." class="border border-gray-300 p-2 w-full mb-2">
+</form>
+        <form id="note-form" class="mb-6">
+            <input type="text" id="note-title" placeholder="Note Title" class="border border-gray-300 p-2 w-full mb-2" required>
+            <textarea id="note-content" placeholder="Note Content" class="border border-gray-300 p-2 w-full mb-2" required></textarea>
+            <button type="submit" class="bg-blue-500 text-white p-2 rounded">Add Note</button>
+        </form>
+        <div id="note-list" class="grid grid-cols-1 gap-4"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
