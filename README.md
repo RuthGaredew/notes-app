@@ -25,18 +25,19 @@ A simple and intuitive Notes App built with HTML, CSS, and JavaScript, utilizing
    git clone https://github.com/yourusername/notes-app.git
    
 2. Navigate to the project directory:
-```bash
-cd notes-app
+
+  ```bash
+  cd notes-app
 
 3. Install dependencies (if any):
 
-```bash
-npm install
+   ```bash
+   npm install
 
 4. Open index.html in your web browser.
 
-```bash
-Usage
+  
+##Usage
 Create a Note: Click on the "Add Note" button, enter your note details, and save.
 Edit a Note: Click the "Edit" button next to the note you want to modify.
 Delete a Note: Click the "Delete" button to remove a note.
