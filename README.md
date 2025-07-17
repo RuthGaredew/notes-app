@@ -26,13 +26,13 @@ A simple and intuitive Notes App built with HTML, CSS, and JavaScript, utilizing
    
 2. Navigate to the project directory:
 
-  ```bash
-  cd notes-app
+    ```bash
+     cd notes-app
 
 3. Install dependencies (if any):
 
-   ```bash
-   npm install
+       ```bash
+      npm install
 
 4. Open index.html in your web browser.
 
