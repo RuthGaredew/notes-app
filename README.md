@@ -26,20 +26,26 @@ A simple and intuitive Notes App built with HTML, CSS, and JavaScript, utilizing
    
 2. Navigate to the project directory:
 
-    ```bash
-     cd notes-app
+   ```bash
+   cd note-app
+    
 
 3. Install dependencies (if any):
-
-       ```bash
-      npm install
+    ```bash
+   npm install
+     
 
 4. Open index.html in your web browser.
 
   
-##Usage
-Create a Note: Click on the "Add Note" button, enter your note details, and save.
-Edit a Note: Click the "Edit" button next to the note you want to modify.
-Delete a Note: Click the "Delete" button to remove a note.
-Search Notes: Use the search bar to filter notes by title or content.
-Toggle Dark Mode: Click the "Toggle Dark Mode" button to switch between light and dark themes.
+## Usage
+- Create a Note:  Enter your note details, Click on the "Add Note" button, and save.
+- Edit a Note: Click the "Edit" button next to the note you want to modify.
+- Delete a Note: Click the "Delete" button to remove a note.
+- Search Notes: Use the search bar to filter notes by title or content.
+- Dark Mode: Click the "Dark Mode" button to switch between light and dark themes.
+
+
+
+
+
