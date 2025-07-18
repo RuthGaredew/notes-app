@@ -1,0 +1,21 @@
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css');
+
+/* Base styles for light mode */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Dark mode styles */
+body.dark {
+    background-color: hsl(0, 1%, 20%); /* Dark background color */
+    color: white; /* Light text color */
+}
+
+.note-card {
+    background-color: hsl(264, 20%, 80%); /* Light card background */
+}
+
+.note-card.dark {
+    background-color: lch(16.22% 0.48 19.14); /* Dark card background */
+}
